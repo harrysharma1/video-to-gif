@@ -28,8 +28,8 @@ function App() {
   }
 
   return (
-    <div className="bg-slate-500  w-full h-full absolute items-center justify-center">
-      <div className="flex flex-col">
+    <div className="bg-slate-500  w-full h-full absolute">
+      <div className="flex flex-col  items-center justify-center">
          {
         ready ? (<>
         <div className="flex flex-row space-x-5">
